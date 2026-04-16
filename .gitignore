@@ -1,0 +1,70 @@
+# ===== Misc =====
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ===== IDEs =====
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# ===== Android =====
+android/.gradle/
+android/app/build/
+android/local.properties
+*.keystore
+*.jks
+
+# ===== iOS =====
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_assets/
+ios/Flutter/Generated.xcconfig
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+
+# ===== macOS =====
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# ===== Windows =====
+windows/flutter/ephemeral/
+
+# ===== Linux =====
+linux/flutter/ephemeral/
+
+# ===== Web =====
+build/web/
+
+# ===== Firebase / secretos =====
+.env
+*.env
+google-services.json
+GoogleService-Info.plist
+
+# ===== Otros =====
+*.lock

@@ -1,0 +1,32 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_messaging: ^16.1.3
+  
+  # Autenticación y Backend
+  supabase_flutter: ^2.12.0
+  # Si usas Clerk manualmente, estas son esenciales:
+  http: ^1.6.0
+  flutter_secure_storage: ^9.0.0
+  image_picker: ^1.0.7 
+  
+  # Deep Linking y Navegación (Necesario para el login con Google/Apple)
+  url_launcher: ^6.2.0
+  app_links: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
